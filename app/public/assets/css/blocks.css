@@ -28,6 +28,10 @@
     height:unset; max-height:unset; overflow:hidden;
 }
 
+.middle-container > .group-container{
+    display: grid; margin: 0 0 1rem; padding: 1rem;
+}
+
 .banner-container > .img-bg{
     display:block; width:100%; padding:34% 0 0 0; background-size:cover;
     background-position:center;
@@ -264,3 +268,7 @@
   filter:grayscale(100%);
 }
 .personal-info > .info .icon + *{width:calc(100% - 1.875rem);}
+
+/* Group block */
+.Group-show-column{display: inline-flex;  margin: 1rem;padding: 5px;}
+.Group-show-row{content: "";clear: both;display: table;display: flex;}
