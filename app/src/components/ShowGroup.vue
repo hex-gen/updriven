@@ -2,8 +2,14 @@
   <h6 class="fw-600">Groups You Manage</h6>
   <div class="Group-show-row">
     <div class="Group-show-column">
-    <div v-for="(card, i) in dataset" :key="i" class="grid sm-45" style="margin: 0 1rem;">
+    <div v-for="(card, i) in dataset" :key="i" class="grid" style="margin: 0 1rem;">
       <GroupCard :link="card.link" :image="card.image" :imgText="card.imgText" />
+    </div>
+    <div style="filter:grayscale(100%)">
+      <button type="button" class="btn_add_group">
+        <img src="/assets/img/icon/plus-circle.png" class="img-add-group">
+        <label style="font-size: 0.6rem;">CREATE A GROUP</label>
+      </button>
     </div>
     </div>
   </div>
