@@ -1,7 +1,7 @@
 <template>
   <div>
     <a v-if="image" :href="link">
-        <img :src="image" alt="Image Content" style="width:7rem"/>
+        <img :src="image" alt="Image Content"  class="group-image"/>
     </a>
     <div v-if="imgText" class="text-container">
       <div> 

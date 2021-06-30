@@ -27,7 +27,7 @@
         </div>
 
         <div class ="group-container bshadow">
-            <label>second section:</label>
+            <ShowGroup02/>
         </div>
 
         <div class ="right-container">
@@ -55,6 +55,8 @@ import PostMultiple from '../../components/PostMultiple';
 import SectionSponsored from '../../components/SectionSponsored';
 import SectionLive from '../../components/SectionLive';
 import ShowGroup from '../../components/ShowGroup';
+import ShowGroup02 from '../../components/ShowGroup02';
+
 
 export default {
   name: 'UserGroupPage',
@@ -66,7 +68,9 @@ export default {
     SectionSponsored,
     SectionLive,
     ShowGroup,
+    ShowGroup02,
   },
+  
   mounted() {
     AOS.init({ easing: 'ease-in-out-cubic', duration: 750, once: true, offset: 10 });
   },

@@ -427,3 +427,8 @@ select{padding:.5625rem .875rem .4375rem .875rem;}
 .p-4{padding:1rem!important;}
 .p-5{padding:1.25rem!important;}
 .p-6{padding:1.5rem!important;}
+
+/* text_group */
+.group-text{font-size: 0.7rem;}
+.group-image{border-radius: 5px;width:6rem;}
+.text-position{ text-align: center;}
