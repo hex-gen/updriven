@@ -57,6 +57,7 @@ import SectionLive from '../../components/SectionLive';
 import ShowGroup from '../../components/ShowGroup';
 import ShowGroup02 from '../../components/ShowGroup02';
 
+
 export default {
   name: 'UserGroupPage',
   components: {
@@ -69,6 +70,7 @@ export default {
     ShowGroup,
     ShowGroup02,
   },
+  
   mounted() {
     AOS.init({ easing: 'ease-in-out-cubic', duration: 750, once: true, offset: 10 });
   },

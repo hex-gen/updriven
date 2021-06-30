@@ -95,6 +95,9 @@ p.xxs, .p.xxs{font-size:.8125rem;} p.xxxs, .p.xxxs{font-size:.75rem;}
 
 .btn.btn-action.btn-mw{min-width:12rem;}
 
+.btn_add_group{
+    width: 7rem;height: 6.5rem;margin: 0px 1rem;border: 0px;background-color: #F6F7F9;
+}
 
 /* Inputs */
 input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
@@ -202,6 +205,9 @@ select{padding:.5625rem .875rem .4375rem .875rem;}
 .ss-img .hover-container .icon{display:block; width:4rem;}
 .ss-img .hover-container .icon.xs{width:.875rem;}
 .ss-img .hover-container .icon > img{display:block; width:100%; height:auto;}
+
+/* Add group button */
+.img-add-group{display: block;max-width: 2rem;margin: auto;}
 
 
 /* Special Separation */
