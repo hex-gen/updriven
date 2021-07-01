@@ -20,10 +20,10 @@
       </div>
     </div>
 
-    <div class="middle-container">
+    <div class="middle-container scroll-group">
 
         <div class ="group-container bshadow">
-            <ShowGroup/>
+            <ShowGroup01/>
         </div>
 
         <div class ="group-container bshadow">
@@ -31,13 +31,16 @@
         </div>
 
         <div class ="right-container">
-          <div class="search-container">
+          <div class="search-container" style="width: 30rem">
             <form action="/" method="GET">
               <FormGroup 
                 placeholder="Search Group" wrapperClass="append" 
                 icon="search.png"
               />
             </form>
+          </div>
+          <div class="search-container">
+          <SectionSearchGroup/>
           </div>
         
         </div>
@@ -54,9 +57,9 @@ import PostNew from '../../components/PostNew';
 import PostMultiple from '../../components/PostMultiple';
 import SectionSponsored from '../../components/SectionSponsored';
 import SectionLive from '../../components/SectionLive';
-import ShowGroup from '../../components/ShowGroup';
+import ShowGroup01 from '../../components/ShowGroup01';
 import ShowGroup02 from '../../components/ShowGroup02';
-
+import SectionSearchGroup from '../../components/SectionSearchGroup';
 
 export default {
   name: 'UserGroupPage',
@@ -67,8 +70,9 @@ export default {
     PostMultiple,
     SectionSponsored,
     SectionLive,
-    ShowGroup,
+    ShowGroup01,
     ShowGroup02,
+    SectionSearchGroup
   },
   
   mounted() {

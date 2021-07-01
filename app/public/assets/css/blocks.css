@@ -29,7 +29,7 @@
 }
 
 .middle-container > .group-container{
-    display: grid; margin: 0 0 1rem; padding: 1rem;
+    display: grid; margin: 0 0 1rem; padding: 1rem; width: 47.5rem;
 }
 
 .banner-container > .img-bg{
@@ -272,3 +272,6 @@
 /* Group block */
 .Group-show-column{display: inline-flex;  margin: 1rem;padding: 5px;}
 .Group-show-row{content: "";clear: both;display: table;display: flex;}
+
+/* scroll group */
+.scroll-group{  overflow-x: scroll; overflow-y: hidden; white-space: nowrap;}

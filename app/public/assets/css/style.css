@@ -96,8 +96,9 @@ p.xxs, .p.xxs{font-size:.8125rem;} p.xxxs, .p.xxxs{font-size:.75rem;}
 .btn.btn-action.btn-mw{min-width:12rem;}
 
 .btn_add_group{
-    width: 7rem;height: 6.5rem;margin: 0px 1rem;border: 0px;background-color: #F6F7F9;
+    width: 6rem; height: 5.6rem; padding: 0.1rem; margin: 0px 0.3rem; border: 0px; border-radius: 3px; background-color: #F6F7F9;
 }
+.btn_add_group:hover{background-color: #DADBDD}
 
 /* Inputs */
 input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
@@ -206,9 +207,9 @@ select{padding:.5625rem .875rem .4375rem .875rem;}
 .ss-img .hover-container .icon.xs{width:.875rem;}
 .ss-img .hover-container .icon > img{display:block; width:100%; height:auto;}
 
-/* Add group button */
-.img-add-group{display: block;max-width: 2rem;margin: auto;}
-
+/* img group page */
+.img-add-group{display: block;max-width: 1.5rem;margin: auto;}
+.img-search-group{padding: 2rem; width: 17rem; height: 12.5rem;}
 
 /* Special Separation */
 .ss-sep{width:100%; overflow:hidden; display:flex; justify-content:center;}
@@ -430,5 +431,5 @@ select{padding:.5625rem .875rem .4375rem .875rem;}
 
 /* text_group */
 .group-text{font-size: 0.7rem;}
-.group-image{border-radius: 5px;width:6rem;}
+.group-image{border-radius: 3px;width:6rem;height: 5.6rem; cursor:pointer; display:inline-block;}
 .text-position{ text-align: center;}
