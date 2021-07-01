@@ -30,7 +30,7 @@ export default {
         link: '#',
         image: `/assets/img/group/search_group/0${i+1}.jpg`,
         imgText: `0${i+1}.jpg`,
-        btnText: 'JOIN US',
+        btnText: 'JOIN',
         property: 'Public Group',
         members: 'members',
         postperday: 'post a day'

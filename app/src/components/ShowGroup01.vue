@@ -6,7 +6,7 @@
     <div v-for="(card, i) in dataset" :key="i" class="grid" style="margin: 0 0.3rem;">
       <GroupCard :link="card.link" :image="card.image" :imgText="card.imgText" class ="group-text group-image text-position" />
     </div>
-    <div style="filter:grayscale(100%)">
+    <div style="filter:grayscale(100%);">
       <button type="button" class="btn_add_group">
         <img src="/assets/img/icon/plus-circle.png" class="img-add-group">
         <label style="font-size: 0.5rem;">CREATE A GROUP</label>

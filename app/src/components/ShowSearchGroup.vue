@@ -1,34 +1,40 @@
 <template>
+<div style="padding-top: 1rem">
   <div class="Group-show-row bshadow" style="height: 12rem; width: 46.5rem;">
+    <div>
     <a v-if="image" :href="link">
         <img :src="image" alt="Image Content" class="img-search-group"/>
     </a>
-    <div v-if="imgText">
-      <div> 
-          {{imgText}}   
-      </div>
     </div>
-    <div v-if="property">
-      <div> 
-          {{property}}   
+    <div>
+      <div v-if="imgText" class="img-text-group">
+        <div> 
+            {{imgText}}   
+        </div>
       </div>
-    </div>
-    <div v-if="members">
-      <div> 
-          {{members}}   
+      <div class="property-text-group">
+        <div v-if="property">
+              {{property}}   
+        </div>
+        <div v-if="members" class="members-text-group">
+              𐤟 {{members}}   
+        </div>
       </div>
-    </div>
-    <div v-if="postperday">
-      <div> 
-          {{postperday}}   
+      <div style="display: flex; padding-top: 4rem;">
+      <div v-if="btnText" class="text-container">
+        <div class="btns text-center">
+          <Button :href="link" classer="btn-color-01" :text="btnText" />
+        </div>
       </div>
-    </div> 
-    <div v-if="btnText" class="text-container">
-      <div class="btns text-center">
-        <Button :href="link" classer="btn-color-01" :text="btnText" />
+      <div v-if="postperday" class="postperday-text-group">
+        <div> 
+            {{postperday}}   
+        </div>
+      </div> 
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script>

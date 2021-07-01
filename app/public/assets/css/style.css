@@ -209,7 +209,7 @@ select{padding:.5625rem .875rem .4375rem .875rem;}
 
 /* img group page */
 .img-add-group{display: block;max-width: 1.5rem;margin: auto;}
-.img-search-group{padding: 2rem; width: 17rem; height: 12.5rem;}
+.img-search-group{padding-right: 1rem;width: 18rem; height: 12rem;}
 
 /* Special Separation */
 .ss-sep{width:100%; overflow:hidden; display:flex; justify-content:center;}
@@ -433,3 +433,7 @@ select{padding:.5625rem .875rem .4375rem .875rem;}
 .group-text{font-size: 0.7rem;}
 .group-image{border-radius: 3px;width:6rem;height: 5.6rem; cursor:pointer; display:inline-block;}
 .text-position{ text-align: center;}
+.img-text-group{padding: 0.5rem 0 0 0}
+.property-text-group{display:inline-flex}
+.members-text-group{padding: 0 0.3rem}
+.postperday-text-group{padding-left: 14.5rem; padding-top: 2rem;}
