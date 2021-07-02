@@ -431,9 +431,9 @@ select{padding:.5625rem .875rem .4375rem .875rem;}
 
 /* text_group */
 .group-text{font-size: 0.7rem;}
-.group-image{border-radius: 3px;width:6rem;height: 5.6rem; cursor:pointer; display:inline-block;}
+.group-image{border-radius: 3px;width:6rem;height: 5.6rem; cursor:pointer; display:inline-block; }
 .text-position{ text-align: center;}
-.img-text-group{padding: 0.5rem 0 0 0}
-.property-text-group{display:inline-flex}
+.img-text-group{padding: 0.5rem 0 0 0;font-weight: bold;font-size: 1.2rem; }
+.property-text-group{display:inline-flex;font-weight: 500; color: #818181;}
 .members-text-group{padding: 0 0.3rem}
-.postperday-text-group{padding-left: 14.5rem; padding-top: 2rem;}
+.postperday-text-group{padding-left: 14.5rem; padding-top: 2rem;font-weight: 500;color: #818181}

@@ -3,8 +3,8 @@
   <div>
     <div>
     <div v-for="(card, i) in dataset" :key="i" >
-      <ShowSearchGroup :link="card.link" :image="card.image" :imgText="card.imgText" :btnText="card.btnText" 
-      :property="card.property" :members="card.members" :postperday="card.postperday"/>
+      <ShowSearchGroup :link="card.link" :image="card.image" :imgText="card.imgText"  :btnText="card.btnText" 
+      :property="card.property" :members="card.members" :postperday="card.postperday" />
     </div> 
     </div>
   </div>
