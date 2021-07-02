@@ -1,5 +1,5 @@
 <template>
-  <h6 class="fw-600">You may be interested</h6>
+  <h6 class="fw-600" style="padding-top:1rem;">You may be interested</h6>
   <div>
     <div>
     <div v-for="(card, i) in dataset" :key="i" >
@@ -33,7 +33,7 @@ export default {
         btnText: 'JOIN',
         property: 'Public Group',
         members: 'members',
-        postperday: 'post a day'
+        postperday: 'posts a day'
       });
     }
   }

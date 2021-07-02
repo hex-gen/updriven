@@ -1,6 +1,6 @@
 <template>
-<div style="padding-top: 1rem">
-  <div class="Group-show-row bshadow" style="height: 12rem; width: 46.5rem;">
+<div class="grid" style="padding-top: 1rem">
+  <div class="Group-show-row bshadow search-group">
     <div>
     <a v-if="image" :href="link">
         <img :src="image" alt="Image Content" class="img-search-group"/>
@@ -20,7 +20,7 @@
               𐤟 {{members}}   
         </div>
       </div>
-      <div style="display: flex; padding-top: 4rem;">
+      <div style="display: flex; padding-top: 3.3rem;">
       <div v-if="btnText" class="text-container">
         <div class="btns text-center">
           <Button :href="link" classer="btn-color-01" :text="btnText" />

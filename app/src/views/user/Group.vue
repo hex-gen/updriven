@@ -31,7 +31,7 @@
         </div>
 
         <div class ="right-container">
-          <div class="search-container" style="width: 30rem">
+          <div class="search-container" style="width: 61%">
             <form action="/" method="GET">
               <FormGroup 
                 placeholder="Search Group" wrapperClass="append" 
