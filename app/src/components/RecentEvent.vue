@@ -3,7 +3,7 @@
         <h6 class="xxs fw-500 color-01">
             Recent events joined
         </h6>
-        <div class="contain2-container pl-1" style="overflow: auto;">
+        <div class="contain2-container pl-1">
             <div v-for="i in dataset">
                 <eventcontent :link="i.link" :image="i.image" :btnText="i.btnText" :head="i.head" :date="i.date" :hashtag="i.hashtag" :numberpeople="i.numberpeople" style="float:left;"/>
             </div>
@@ -46,7 +46,7 @@ export default {
             date: '10:00 AM - 5:00 PM / Aprill 1st',
             hashtag: '#Programmer',
             numberpeople: '577'
-        }/*,
+        },
         {
             link: '#',
             image: `/assets/img/content/02.jpg`,
@@ -55,7 +55,7 @@ export default {
             date: '10:00 AM - 5:00 PM / Aprill 1st',
             hashtag: '#Programmer',
             numberpeople: '577'
-        }*/]
+        }]
         }
     }
 }
