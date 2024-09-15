@@ -22,7 +22,7 @@ export default {
     }
   },
   mounted() {
-    for(let i=0; i<3; i++){
+    for(let i=0; i<2; i++){
       this.dataset.push({
         link: '#',
         image: `/assets/img/content/0${i+1}.jpg`,

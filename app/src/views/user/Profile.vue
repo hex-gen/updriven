@@ -8,7 +8,7 @@
         <LeftNav @on-click="(tab) => onClickTab(tab)" />
       </div>
     </div>
-
+    
     <Banner />
     
     <div class="right-container" data-aos="fade-up" data-aos-delay="150">

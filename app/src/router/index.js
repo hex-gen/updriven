@@ -30,6 +30,17 @@ const routes = [
     name: 'UserChatPage',
     component: () => import('../views/user/Chat.vue')
   },
+  {
+    path: '/user/activity',
+    name: 'UserActivityPage',
+    component: () => import('../views/user/Activity.vue')
+  },
+  {
+    path: '/user/test',
+    name: 'TestPage',
+    component: () => import('../views/user/test.vue')
+  },
+
 
 ]
 

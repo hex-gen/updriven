@@ -22,7 +22,7 @@
           <a class="tab" href="#">Friends</a>
           <a class="tab" href="#">Photo</a>
           <a class="tab" href="#">Video</a>
-          <a class="tab" href="#">Activity</a>
+          <a class="tab" href="/user/activity">Activity</a>
         </div>
         <div class="btn">
           <Button 

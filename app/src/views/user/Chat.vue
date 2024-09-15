@@ -32,7 +32,6 @@ import PostNew from '../../components/PostNew';
 import PostMultiple from '../../components/PostMultiple';
 import SectionSponsored from '../../components/SectionSponsored';
 import SectionLive from '../../components/SectionLive';
-
 export default {
   name: 'UserChatPage',
   components: {
